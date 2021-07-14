@@ -71,28 +71,21 @@ Certifique seu conhecimento
 
   - Criada maquina virtual Linux Ubuntu 20.04 para utilização do Docker.
 
-  ![](C:\Teste\Linux.png)
-
-
+  ![VM Linux Ubuntu 20.04](https://i.loli.net/2021/07/15/zCuiyNtwrjvHeYl.png)
 
 - Play With Docker
 
   - Utilizado o site https://labs.play-with-docker.com/ para fazer testes com containers. 
-
-  ![](C:\Teste\Play with docker.png)
-
-
-
+  
+    ![Play With Docker](https://i.loli.net/2021/07/15/KrZAEtcobkMzwsW.png)
+  
 - DockerHub
 
   - Criação de repositório e tags.
 
-    ![](C:\Teste\DockerHub.png)
-
-
+    ![DockerHub](https://i.loli.net/2021/07/15/lLIrX5EimgAcnau.png)
 
 - GitHub
   - Utilizado repositório para upar Projeto com Docker. 
 
-![](C:\Teste\docker dio.png)
-
+![GitHub Repositório](https://i.loli.net/2021/07/15/xfQnHUlCgoAYjSV.png)
