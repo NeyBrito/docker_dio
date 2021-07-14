@@ -69,22 +69,30 @@ Certifique seu conhecimento
 
 - Microsoft Azure 
 
-  - Criada maquina virtual Linux Ubuntu 20.04 para utilização do Docker
+  - Criada maquina virtual Linux Ubuntu 20.04 para utilização do Docker.
 
-  ![image-20210714121835636](C:\Users\Ney Brito\AppData\Roaming\Typora\typora-user-images\image-20210714121835636.png)
+  <img src="C:\Users\Ney Brito\Pictures\Saved Pictures\Linux.png" alt="Linux"  />
 
 
 
 - Play With Docker
 
-  - Utilizado o site https://labs.play-with-docker.com/ para fazer testes com containers 
+  - Utilizado o site https://labs.play-with-docker.com/ para fazer testes com containers. 
 
-  -![image-20210714122007033](C:\Users\Ney Brito\AppData\Roaming\Typora\typora-user-images\image-20210714122007033.png)
+  ![Play with docker](C:\Users\Ney Brito\Pictures\Saved Pictures\Play with docker.png)
+
+
+
+- DockerHub
+
+  - Criação de repositório e tags.
+
+    ![DockerHub](C:\Users\Ney Brito\Pictures\Saved Pictures\DockerHub.png)
 
 
 
 - GitHub
-  - Utilizado repositório para upar Projeto com Docker 
+  - Utilizado repositório para upar Projeto com Docker. 
 
-
+![docker dio](C:\Users\Ney Brito\Pictures\Saved Pictures\docker dio.png)
 
