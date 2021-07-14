@@ -71,7 +71,7 @@ Certifique seu conhecimento
 
   - Criada maquina virtual Linux Ubuntu 20.04 para utilização do Docker.
 
-  <img src="C:\Users\Ney Brito\Pictures\Saved Pictures\Linux.png" alt="Linux"  />
+  ![](C:\Teste\Linux.png)
 
 
 
@@ -79,7 +79,7 @@ Certifique seu conhecimento
 
   - Utilizado o site https://labs.play-with-docker.com/ para fazer testes com containers. 
 
-  ![Play with docker](C:\Users\Ney Brito\Pictures\Saved Pictures\Play with docker.png)
+  ![](C:\Teste\Play with docker.png)
 
 
 
@@ -87,12 +87,12 @@ Certifique seu conhecimento
 
   - Criação de repositório e tags.
 
-    ![DockerHub](C:\Users\Ney Brito\Pictures\Saved Pictures\DockerHub.png)
+    ![](C:\Teste\DockerHub.png)
 
 
 
 - GitHub
   - Utilizado repositório para upar Projeto com Docker. 
 
-![docker dio](C:\Users\Ney Brito\Pictures\Saved Pictures\docker dio.png)
+![](C:\Teste\docker dio.png)
 
