@@ -87,7 +87,67 @@ curl localhost // Conteudo da página
 
 ## Comandos Rede
 
-docker network  create -d bridge <nome da rede> = criar uma rede
 
-docker network ls = listar as redes
+
+- Bridge 
+  - docker network  create -d bridge <nome da rede> = criar uma rede
+  - docker network ls = listar as redes 
+    - docker run -d --net petsBridge --name db consul = criando um container na rede
+    - docker run -d --env "DB=db" --net petsBridge --name web -p 8000:5000 chrch/docker-pets:1.0 = criando a imagem
+
+
+
+- Hotst
+
+  - docker run -d --net host --name db consul = criando um container na rede host
+
+  - docker run -d --env "DB=db" --net petsBridge --name web -p 8000:5000 chrch/docker-pets:1.0 = criando a imagem 
+
+    
+
+### Docker Swarm 
+
+- docker swarm init --advertise-addr 192.168.0.28 = inicializando o swarm no servidor
+- docker swarm join --token <token gerado> 192.168.0.28:2377 = se juntando como worker no swarm
+
+- Overlay
+
+  - docker network create -d overlay petsOverlay = criando uma rede overlay
+
+  - docker service create --net petsOverlay --name db consul = criando backend
+
+  - docker service create --netwok petsOverlay -p 8000:5000 -e "DB=db" --name web chrch/docker-pets:1.0 = frontend
+
+- docker sevice scale web=3 = escalonar serviços
+
+
+
+## Armazenamento 
+
+- __Tipo Volume__
+
+  - docker volume create<nome volume>
+
+  - docker volume inspect <nome do volume>
+
+- Criando container no volume
+  - docker run -d -p 80:80 --name <nome do container> --mount source=<nome do volume>,target=/usr/share/nginx nginx
+- __Tipo  Bind__
+  - docker run -d --name container-bind -p 80:80 -v /html:/usr/share/nginx/html nginx
+- __Tipo TMPFS__ 
+  - docker run -d --name container-tmpfs --mount type=tmpfs,destination=/cache,tmpfs-size=1000000 
+    - dd if=/dev/zero of=1mb.file bs=1024 count=1024 = criando um arquivo dentro da pasta cache
+
+
+
+## Limites
+
+- CPU
+  - docker run -d --rm progrium/stress -c 8 -t 30s
+  - docker stats
+- Memória
+  - docker run -d --memory 10m busybox sleep 3600
+    - free -m = ver memoria disponivel
+
+
 
