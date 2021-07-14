@@ -71,7 +71,7 @@ Certifique seu conhecimento
 
   - Criada maquina virtual Linux Ubuntu 20.04 para utilização do Docker.
 
-  ![VM Linux Ubuntu 20.04](https://i.loli.net/2021/07/15/zCuiyNtwrjvHeYl.png)
+    ![VM Linux Ubuntu 20.04](https://i.loli.net/2021/07/15/zCuiyNtwrjvHeYl.png)
 
 - Play With Docker
 
@@ -87,5 +87,5 @@ Certifique seu conhecimento
 
 - GitHub
   - Utilizado repositório para upar Projeto com Docker. 
-
-![GitHub Repositório](https://i.loli.net/2021/07/15/xfQnHUlCgoAYjSV.png)
+  
+    ![GitHub Repositório](https://i.loli.net/2021/07/15/xfQnHUlCgoAYjSV.png)
